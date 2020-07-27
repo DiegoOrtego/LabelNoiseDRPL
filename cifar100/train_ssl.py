@@ -19,7 +19,6 @@ import torch.utils.data as data
 from torch import optim
 from torchvision import datasets, transforms, models
 
-from TwoSampler import *
 from utils_noise import *
 from utils.criterion import accuracy_v2
 from utils.AverageMeter import AverageMeter
