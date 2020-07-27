@@ -2,11 +2,6 @@
 
 Our approach robustly learns CNNs for Image Classification in the presence of label noise. 
 
-Abstract:
-
-Noisy labels are an unavoidable consequence of labeling processes and detecting them is an important step towards preventing performance degradations in Convolutional Neural Networks. Discarding noisy labels avoids a harmful memorization, while the associated image content can still be exploited in a semi-supervised learning (SSL) setup. Clean samples are usually identified using the small loss trick, i.e. they exhibit a low loss. However, we show that different noise distributions make the application of this trick less straightforward and propose to continuously relabel all images to reveal a discriminative loss against multiple distributions. SSL is then applied twice, once to improve the clean-noisy detection and again for training the final model. We design an experimental setup based on ImageNet32/64 for better understanding the consequences of representation learning with differing label noise distributions and find that non-uniform out-of-distribution noise better resembles real-world noise and that in most cases intermediate features are not affected by label noise corruption. Experiments in CIFAR-10/100, ImageNet32/64 and WebVision (real-world noise) demonstrate that the proposed label noise Distribution Robust Pseudo-Labeling (DRPL) approach gives substantial improvements over recent state-of-the-art.
-
-
 We provide examples to run our method in:
 
 - CIFAR-10/100: "cifar10" and "cifar100" folders contain code used to simulate label noise with 2 different label noise distributions: uniform (random_in noise type) and non-uniform noise (real_in noise type). We provide example scripts to run our approach for both noise types: "RunScripts_cifar10.sh" and "RunScripts_cifar100.sh". Both datasets are downloaded automatically when setting "--download True". The dataset have to be placed in cifar10/data/ folder (should be done automatically).
