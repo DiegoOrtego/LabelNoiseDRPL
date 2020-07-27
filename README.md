@@ -9,11 +9,11 @@ We provide examples to run our method in:
 
 Main requirements:
 
-Python 3.5.2
-Pytorch 0.4.1 (torchvision 0.2.1)
-Numpy 1.15.3
-scikit-learn 0.21.3
-cuda 9.0
+- Python 3.5.2
+- Pytorch 0.4.1 (torchvision 0.2.1)
+- Numpy 1.15.3
+- scikit-learn 0.21.3
+- cuda 9.0
 
 (also tested in Pytorch 1.5)
 
