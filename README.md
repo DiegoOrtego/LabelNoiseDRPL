@@ -18,8 +18,12 @@ Noisy labels are an unavoidable consequence of labeling processes and detecting 
 - cuda 9.2
 
 
+#### Examples of noisy samlpes detected in WebVision
 
-### Test Accuracy
+![couldn't find image](https://github.com/DiegoOrtego/LabelNoiseDRPL/blob/master/data/noisy_examples.png)
+
+
+#### Test Accuracy
 
 
 |Non-uniform noise|0%|10%|30%|40%|
@@ -33,7 +37,7 @@ Noisy labels are an unavoidable consequence of labeling processes and detecting 
 |CIFAR-100|72.27 |71.25 |73.13 |68.71 |53.04|
 
 
-### Please consider citing the following paper if you find this work useful for your research.
+#### Please consider citing the following paper if you find this work useful for your research.
 
 ```
  @inproceedings{drpl2020,
