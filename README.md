@@ -22,12 +22,12 @@ Noisy labels are an unavoidable consequence of labeling processes and detecting 
 ### Test Accuracy
 
 
-|Non-uniform noise distribution|0%|10%|30%|40%|
+|Non-uniform noise|0%|10%|30%|40%|
 |----|----|----|----|----|
 |CIFAR-10|94.47|95.70|93.65|93.14|
 |CIFAR-100|72.27 |72.40 |69.30 |65.86 |
 
-|Uniform noise distribution|0%|20%|40%|60%|80%|
+|Uniform noise|0%|20%|40%|60%|80%|
 |----|----|----|----|----|----|
 |CIFAR-10|94.47|94.20|92.92|89.21|64.35|
 |CIFAR-100|72.27 |71.25 |73.13 |68.71 |53.04|
