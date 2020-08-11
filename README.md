@@ -18,3 +18,27 @@ Noisy labels are an unavoidable consequence of labeling processes and detecting 
 - cuda 9.2
 
 
+
+### Test Accuracy
+
+|Noise distribution| |Non-Uniform| | |Uniform| | | |
+|Noise level|0%|10%|30%|40%|20%|40%|60%|80%|
+|----|----|----|----|----|----|----|----|----|
+|CIFAR-10|94.47|95.70|93.65|93.14|94.20|92.92|89.21|64.35|
+|CIFAR-100|72.27 |72.40 |69.30 |65.86 |71.25 |73.13 |68.71 |53.04|
+
+
+### Please consider citing the following paper if you find this work useful for your research.
+
+```
+ @inproceedings{drpl2020,
+  title = {Towards Robust Learning with Different Label Noise Distributions},
+  authors = {Diego Ortego and Eric Arazo and Paul Albert and Noel E O'Connor and Kevin McGuinness},
+  year={2020},
+  eprint={2007.11866},
+  archivePrefix={arXiv},
+  primaryClass={cs.CV}
+ } 
+```
+
+Diego Ortego, Eric Arazo, Paul Albert, Noel E. O'Connor, Kevin McGuinness, Towards Robust Learning with Different Label Noise Distributions, Arxiv, 2020
