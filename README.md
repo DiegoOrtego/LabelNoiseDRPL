@@ -20,7 +20,7 @@ Noisy labels are an unavoidable consequence of labeling processes and detecting 
 
 #### Examples of noisy samlpes detected in WebVision
 
-![couldn't find image](https://github.com/DiegoOrtego/LabelNoiseDRPL/blob/master/data/noisy_examples.png)
+![couldn't find image](https://github.com/DiegoOrtego/LabelNoiseDRPL/blob/master/noisy_examples.png)
 
 
 #### Test Accuracy
