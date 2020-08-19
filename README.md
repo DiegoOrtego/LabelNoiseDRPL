@@ -48,4 +48,4 @@ Noisy labels are an unavoidable consequence of labeling processes and detecting 
  } 
 ```
 
-Diego Ortego, Eric Arazo, Paul Albert, Noel E. O'Connor, Kevin McGuinness, Towards Robust Learning with Different Label Noise Distributions, Arxiv, 2020
+Diego Ortego, Eric Arazo, Paul Albert, Noel E. O'Connor, Kevin McGuinness. "Towards Robust Learning with Different Label Noise Distributions", arXiv, 2020.
