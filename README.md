@@ -40,7 +40,7 @@ Noisy labels are an unavoidable consequence of labeling processes and detecting 
 #### Please consider citing the following paper if you find this work useful for your research.
 
 ```
- @article{2020_arxiV_DRPL,
+ @article{2020_arXiv_DRPL,
   title = {Towards Robust Learning with Different Label Noise Distributions},
   authors = {Diego Ortego and Eric Arazo and Paul Albert and Noel E O'Connor and Kevin McGuinness},
   year={2020},
